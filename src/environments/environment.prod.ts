@@ -1,8 +1,8 @@
 export const environment = {
   production: true,
-  googleMapsAPIKey: 'AIzaSyDfrrnfgfGfYGV-zN3Ud_Yp1cFndPcGDgU',
+  googleMapsAPIKey: 'Your-API_KEY',
   firebaseConfig: {
-    apiKey: "AIzaSyDfrrnfgfGfYGV-zN3Ud_Yp1cFndPcGDgU",
+    apiKey: "Your-API_KEY",
     authDomain: "ionic92.firebaseapp.com",
     databaseURL: "https://ionic92-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "ionic92",
