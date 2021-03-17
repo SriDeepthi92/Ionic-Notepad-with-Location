@@ -44,7 +44,7 @@ export class AddNotePage {
 
    GetCurrentTemperature(latitude,longitude){
 
-    var url = "https://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=46682fec96f1e0f74082470e5205dd3e";
+    var url = "https://api.openweathermap.org/data/2.5/weather?lat="+latitude+"&lon="+longitude+"&appid=Your-API-KEY";
     this.httpClient.get(url).subscribe((temperaturedata)=>{
       var obj = <any>temperaturedata;
       this.place = obj.name;
